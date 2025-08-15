@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MaskInbox - Temporary Email</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>MaskInbox</h1>
+  </header>
+  <main>
+    <section id="address">
+      <h2>Your temporary email address</h2>
+      <div class="address-box">
+        <span id="temp-address">demo@maskinbox.example</span>
+        <button id="copy-btn">Copy</button>
+      </div>
+    </section>
+    <section id="inbox">
+      <h2>Inbox</h2>
+      <ul id="message-list">
+        <li data-message="Welcome to MaskInbox!">From: Support<br />Subject: Welcome</li>
+        <li data-message="This is a sample email body for demonstration.">From: Example<br />Subject: Dummy Message</li>
+      </ul>
+      <div id="message-content">
+        <p>Select a message to preview.</p>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
